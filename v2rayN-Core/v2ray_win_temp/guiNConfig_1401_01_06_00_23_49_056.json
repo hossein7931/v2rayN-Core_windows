@@ -1,0 +1,340 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "muxEnabled": false,
+  "sysProxyType": 0,
+  "allowLANConn": true,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 3000,
+  "remoteDNS": "",
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 0,
+  "enableRoutingAdvanced": false,
+  "coreType": 0,
+  "ignoreGeoUpdateCore": true,
+  "systemProxyExceptions": "",
+  "autoUpdateInterval": 0,
+  "enableSecurityProtocolTls13": false,
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "4973241637695837895",
+      "configVersion": 2,
+      "address": "178.18.245.197",
+      "port": 443,
+      "id": "pdkMQaxNgdiD",
+      "alterId": 0,
+      "security": "chacha20-ietf-poly1305",
+      "network": "",
+      "remarks": "bepass - Germany (178.18.245.197)",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 3,
+      "testResult": "   136ms",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null
+    },
+    {
+      "indexId": "5161116473520192177",
+      "configVersion": 2,
+      "address": "194.163.134.114",
+      "port": 443,
+      "id": "cu7TImPA4p1v",
+      "alterId": 0,
+      "security": "chacha20-ietf-poly1305",
+      "network": "",
+      "remarks": "bepass - Germany (194.163.134.114)",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 3,
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null
+    },
+    {
+      "indexId": "4626502817565402745",
+      "configVersion": 2,
+      "address": "95.111.255.137",
+      "port": 443,
+      "id": "nlxJBSqezxXO",
+      "alterId": 0,
+      "security": "chacha20-ietf-poly1305",
+      "network": "",
+      "remarks": "bepass - Germany (95.111.255.137)",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 3,
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null
+    },
+    {
+      "indexId": "5129506281270846338",
+      "configVersion": 2,
+      "address": "167.86.116.89",
+      "port": 443,
+      "id": "3G07AqhnnF9P",
+      "alterId": 0,
+      "security": "chacha20-ietf-poly1305",
+      "network": "",
+      "remarks": "bepass - Germany (167.86.116.89)",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 3,
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null
+    },
+    {
+      "indexId": "5047361924034901696",
+      "configVersion": 2,
+      "address": "172.105.251.193",
+      "port": 2376,
+      "id": "faBAoD54k87UJG7",
+      "alterId": 0,
+      "security": "aes-256-gcm",
+      "network": "",
+      "remarks": "Japan 🇯🇵 (172.105.251.193)",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 3,
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null
+    },
+    {
+      "indexId": "5053435669339591960",
+      "configVersion": 2,
+      "address": "185.17.113.234",
+      "port": 810,
+      "id": "G!yBwPWH3Vao",
+      "alterId": 0,
+      "security": "chacha20-ietf-poly1305",
+      "network": "",
+      "remarks": "Turkey (185.17.113.234)",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 3,
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [
+    {
+      "id": "",
+      "remarks": "remarks",
+      "url": "url",
+      "enabled": true,
+      "userAgent": ""
+    }
+  ],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": false,
+    "mainSize": "237, 39",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 159,
+      "remarks": 434,
+      "address": 155,
+      "port": 67,
+      "security": 89,
+      "network": 70,
+      "subRemarks": 56,
+      "testResult": 79,
+      "streamSecurity": 70
+    }
+  },
+  "routings": [
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": null
+}
